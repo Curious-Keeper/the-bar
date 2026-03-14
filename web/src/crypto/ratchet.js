@@ -1,6 +1,6 @@
 /**
  * Symmetric ratchet for PQ+ E2E. Forward secrecy: each message uses a new key derived from the chain.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 import { getCrypto } from './cryptoPrimitives'

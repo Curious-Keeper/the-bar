@@ -25,7 +25,7 @@ web/node_modules/
 /client
 /licenseserver
 
-# Docs live in the-bar-site repo; symlinked locally for reference
+# Docs live in the-bar-site private repo
 docs
 docs/
 
@@ -76,3 +76,6 @@ certs
 certs/
 *.pem
 *.key
+
+# --- Configs
+.claude/settings.local.json

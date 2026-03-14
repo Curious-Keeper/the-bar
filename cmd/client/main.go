@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Curious-Keeper/the-bar/internal/chatroom"
+	"github.com/openwatch-icu/the-bar/internal/chatroom"
 )
 
 func main() {

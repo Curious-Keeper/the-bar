@@ -3,7 +3,7 @@
 package password
 
 import (
-	"github.com/Curious-Keeper/the-bar/pkg/token"
+	"github.com/openwatch-icu/the-bar/pkg/token"
 	"golang.org/x/crypto/bcrypt"
 )
 

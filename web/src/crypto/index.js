@@ -1,6 +1,6 @@
 /**
  * PQ+ E2E crypto module. Same protocol for web and Tauri.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 export {

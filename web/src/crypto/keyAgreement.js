@@ -1,6 +1,6 @@
 /**
  * Key agreement for PQ+ E2E (v1: ECDH P-256). Used by DM and later by hybrid PQ.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  *
  * Keypair identity: public key JWK stored in localStorage (not secret); private key
  * stored as a non-extractable CryptoKey in IndexedDB so XSS cannot call exportKey()

@@ -9,7 +9,7 @@ import (
 // E2EPrefix is the wire-format prefix for E2E-encrypted payloads. When a message
 // starts with this prefix, the server stores and forwards it as an opaque blob
 // (no plaintext parsing or body logging). E2E payload may be versioned; the server
-// does not parse beyond the prefix. See https://the-b4r.netlify.app/wiki/e2e_and_tamper and https://the-b4r.netlify.app/wiki/e2e_protocol
+// does not parse beyond the prefix. See https://thebarchat.app/wiki/e2e_and_tamper and https://thebarchat.app/wiki/e2e_protocol
 const E2EPrefix = "e2e."
 
 // Message represents a single chat message with metadata.

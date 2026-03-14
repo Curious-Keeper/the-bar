@@ -103,11 +103,11 @@ export function Settings({
               This is what the server reports. When connecting to a third-party
               server, you are trusting that operator. See{' '}
               <a
-                href="https://the-b4r.netlify.app/wiki/privacy"
+                href="https://thebarchat.app/wiki/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                PRIVACY
+                Privacy
               </a>{' '}
               for the trust model.
             </p>
@@ -125,7 +125,7 @@ export function Settings({
               in transit, that message shows &quot;Verification failed — message
               may have been tampered&quot;. See{' '}
               <a
-                href="https://the-b4r.netlify.app/wiki/e2e_and_tamper"
+                href="https://thebarchat.app/wiki/e2e_and_tamper"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -163,11 +163,11 @@ export function Settings({
             message content is stored. When the server is age-restricted, your
             age confirmation is stored only on this device (best effort). See{' '}
             <a
-              href="https://the-b4r.netlify.app/wiki/privacy"
+              href="https://thebarchat.app/wiki/privacy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              PRIVACY
+              Privacy
             </a>
             .
           </p>

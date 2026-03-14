@@ -1,5 +1,5 @@
 /**
- * PQ+ E2E protocol constants. See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * PQ+ E2E protocol constants. See https://thebarchat.app/wiki/e2e_protocol.
  *
  * PQ+ is the only supported encryption standard for this platform; no legacy format is accepted.
  */

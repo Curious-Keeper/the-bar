@@ -1,7 +1,7 @@
 /**
  * Key derivation for PQ+ E2E. Domain-separated KDF using SHA-256.
  * Used to derive message keys, chain keys, and algorithm-bound material.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 import { getCrypto } from './cryptoPrimitives'

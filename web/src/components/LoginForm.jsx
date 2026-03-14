@@ -156,7 +156,7 @@ export function LoginForm({
       <p className="login-terms-hint">
         By joining, you agree to this instance&apos;s policies and our{' '}
         <a
-          href="https://the-b4r.netlify.app/wiki/terms"
+          href="https://thebarchat.app/wiki/terms"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -164,7 +164,7 @@ export function LoginForm({
         </a>{' '}
         and{' '}
         <a
-          href="https://the-b4r.netlify.app/wiki/privacy"
+          href="https://thebarchat.app/wiki/privacy"
           target="_blank"
           rel="noopener noreferrer"
         >

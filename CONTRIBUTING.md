@@ -13,7 +13,7 @@ Thanks for your interest in contributing. This document explains how to get the 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Curious-Keeper/the-bar.git
+   git clone https://github.com/openwatch-icu/the-bar.git
    cd the-bar
    ```
 
@@ -26,7 +26,7 @@ Thanks for your interest in contributing. This document explains how to get the 
    go run ./cmd/server
    ```
 
-   The server listens on TCP `:9000` and HTTP/WebSocket `:8080` by default. See [Configuration](https://the-b4r.netlify.app/wiki/configuration) and [.env.example](.env.example) for configuration.
+   The server listens on TCP `:9000` and HTTP/WebSocket `:8080` by default. See [Configuration](https://thebarchat.app/wiki/configuration) and [.env.example](.env.example) for configuration.
 
 3. **Run the web client (development)**
 
@@ -43,7 +43,7 @@ Thanks for your interest in contributing. This document explains how to get the 
    ```bash
    npm run tauri dev
    ```
-   Requires Rust and a WebView runtime. See [Desktop App](https://the-b4r.netlify.app/wiki/desktop-app).
+   Requires Rust and a WebView runtime. See [Desktop App](https://thebarchat.app/wiki/desktop-app).
 
 ## Running tests
 
@@ -99,7 +99,7 @@ Thanks for your interest in contributing. This document explains how to get the 
 
 By submitting a pull request or other contribution, you grant the project maintainer(s) a perpetual, irrevocable, worldwide, non-exclusive license to use, modify, distribute, and sublicense your contribution under any terms (including proprietary or commercial licenses), and you represent that you have the right to grant this license. The project is [proprietary with a free tier for personal/non-commercial use](LICENSE); corporate and commercial use require a separate license from the copyright holder.
 
-For configuration and feature details, see [README.md](README.md) and the [wiki](https://the-b4r.netlify.app/wiki). The [E2E and tamper detection roadmap](https://the-b4r.netlify.app/wiki/e2e_and_tamper) describes planned steps for privacy-focused messaging; the [join modes doc](https://the-b4r.netlify.app/wiki/join_modes) describes current and planned join behavior.
+For configuration and feature details, see [README.md](README.md) and the [wiki](https://thebarchat.app/wiki). The [E2E and tamper detection roadmap](https://thebarchat.app/wiki/e2e_and_tamper) describes planned steps for privacy-focused messaging; the [join modes doc](https://thebarchat.app/wiki/join_modes) describes current and planned join behavior.
 
 ## Secrets
 
@@ -109,4 +109,4 @@ For configuration and feature details, see [README.md](README.md) and the [wiki]
 
 ## Note on server behavior and the client
 
-Contributors and instance operators can change server behavior (e.g. logging or persistence). The client shows what the server reports (e.g. logging and persistence settings) as an advisory indicator; it cannot verify that the server is unmodified or that it is telling the truth. See [Privacy](https://the-b4r.netlify.app/wiki/privacy) for the trust model.
+Contributors and instance operators can change server behavior (e.g. logging or persistence). The client shows what the server reports (e.g. logging and persistence settings) as an advisory indicator; it cannot verify that the server is unmodified or that it is telling the truth. See [Privacy](https://thebarchat.app/wiki/privacy) for the trust model.

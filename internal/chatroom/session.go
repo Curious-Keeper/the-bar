@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/Curious-Keeper/the-bar/pkg/password"
-	"github.com/Curious-Keeper/the-bar/pkg/token"
+	"github.com/openwatch-icu/the-bar/pkg/password"
+	"github.com/openwatch-icu/the-bar/pkg/token"
 )
 
 // instanceSessionKey returns the session map key for this instance and username.

@@ -1,4 +1,4 @@
-module github.com/Curious-Keeper/the-bar
+module github.com/openwatch-icu/the-bar
 
 go 1.25.7
 

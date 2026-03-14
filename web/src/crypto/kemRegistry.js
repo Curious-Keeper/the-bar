@@ -1,7 +1,7 @@
 /**
  * Pluggable KEM registry for PQ+ hybrid key agreement.
  * Register ML-KEM-768 (or other NIST PQC KEM) when available; v1 (ECDH only) works when no KEM is registered.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 import {

@@ -1,6 +1,6 @@
 /**
  * AEAD helpers for PQ+ E2E. AES-256-GCM with 12-byte nonce, 128-bit tag.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 import { getCrypto } from './cryptoPrimitives'

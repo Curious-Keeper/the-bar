@@ -2,7 +2,7 @@
 
 **Privacy-first chat: single-tenant, invite-only, no face/ID verification, no cross-tracking, minimal data. Protect users through design—not surveillance.**
 
-A self-hosted chat server and web client you can run as a viable alternative to Slack/Discord. See our [Privacy](https://the-b4r.netlify.app/wiki/privacy) stance, [how truly secure communications work](https://the-b4r.netlify.app/wiki/security-concepts) (E2E, attestation, pinning), and the [E2E and tamper detection roadmap](https://the-b4r.netlify.app/wiki/e2e_and_tamper).
+A self-hosted chat server and web client you can run as a viable alternative to Slack/Discord. See our [Privacy](https://thebarchat.app/wiki/privacy) stance, [how truly secure communications work](https://thebarchat.app/wiki/security-concepts) (E2E, attestation, pinning), and the [E2E and tamper detection roadmap](https://thebarchat.app/wiki/e2e_and_tamper).
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ Enter a username and click Join. The app stores your reconnect token per instanc
 
 ## Configuration
 
-Server configuration is via environment variables or `.env` (see [.env.example](.env.example)). Full reference: [Configuration](https://the-b4r.netlify.app/wiki/configuration). For WebSocket disconnects and keeping sessions open, see [Staying Connected](https://the-b4r.netlify.app/wiki/staying-connected).
+Server configuration is via environment variables or `.env` (see [.env.example](.env.example)). Full reference: [Configuration](https://thebarchat.app/wiki/configuration). For WebSocket disconnects and keeping sessions open, see [Staying Connected](https://thebarchat.app/wiki/staying-connected).
 
 ## Graceful shutdown
 
@@ -47,27 +47,22 @@ The server handles SIGINT (Ctrl+C) and SIGTERM: it stops accepting new connectio
 
 ## Documentation
 
-All project documentation is maintained in the
-[the-bar-site](https://github.com/Curious-Keeper/the-bar-site) repo
-and published at https://the-b4r.netlify.app/wiki.
+All project documentation is maintained in the [wiki](https://thebarchat.app/wiki).
 
-For local access, symlink the docs directory:
-
-    ln -s ../the-bar-site/docs docs
 
 | Topic                                                     | Doc                                                                              |
 | --------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Server configuration (env vars, private rooms, retention) | [Configuration](https://the-b4r.netlify.app/wiki/configuration)                  |
-| Staying connected (WebSocket, timeouts, heartbeat)        | [Staying Connected](https://the-b4r.netlify.app/wiki/staying-connected)          |
-| I2P (optional transport)                                  | [I2P](https://the-b4r.netlify.app/wiki/i2p)                                     |
-| TLS and local development (certs, LAN, troubleshooting)   | [TLS & Local Dev](https://the-b4r.netlify.app/wiki/tls-and-local-dev)            |
-| Docker                                                    | [Docker](https://the-b4r.netlify.app/wiki/docker)                                |
-| Desktop app (Tauri)                                       | [Desktop App](https://the-b4r.netlify.app/wiki/desktop-app)                      |
-| Roadmap                                                   | [Roadmap](https://the-b4r.netlify.app/wiki/roadmap)                              |
-| E2E and tamper detection                                  | [E2E & Tamper Detection](https://the-b4r.netlify.app/wiki/e2e_and_tamper)        |
-| Join modes (session vs account)                           | [Join Modes](https://the-b4r.netlify.app/wiki/join_modes)                        |
-| Local setup (dependencies, tools)                         | [Setup](https://the-b4r.netlify.app/wiki/setup)                                  |
-| External references                                       | [References](https://the-b4r.netlify.app/wiki/references)                        |
+| Server configuration (env vars, private rooms, retention) | [Configuration](https://thebarchat.app/wiki/configuration)                  |
+| Staying connected (WebSocket, timeouts, heartbeat)        | [Staying Connected](https://thebarchat.app/wiki/staying-connected)          |
+| I2P (optional transport)                                  | [I2P](https://thebarchat.app/wiki/i2p)                                     |
+| TLS and local development (certs, LAN, troubleshooting)   | [TLS & Local Dev](https://thebarchat.app/wiki/tls-and-local-dev)            |
+| Docker                                                    | [Docker](https://thebarchat.app/wiki/docker)                                |
+| Desktop app (Tauri)                                       | [Desktop App](https://thebarchat.app/wiki/desktop-app)                      |
+| Roadmap                                                   | [Roadmap](https://thebarchat.app/wiki/roadmap)                              |
+| E2E and tamper detection                                  | [E2E & Tamper Detection](https://thebarchat.app/wiki/e2e_and_tamper)        |
+| Join modes (session vs account)                           | [Join Modes](https://thebarchat.app/wiki/join_modes)                        |
+| Local setup (dependencies, tools)                         | [Setup](https://thebarchat.app/wiki/setup)                                  |
+| External references                                       | [References](https://thebarchat.app/wiki/references)                        |
 
 ## Licensing
 

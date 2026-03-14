@@ -3,7 +3,7 @@
  * In the browser we use sessionStorage for ephemeral state and IndexedDB for
  * non-extractable CryptoKey objects (private key). When running in Tauri the same
  * code path runs; optional future: integrate tauri-plugin-store or OS keychain.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol (Tauri key persistence).
+ * See https://thebarchat.app/wiki/e2e_protocol (Tauri key persistence).
  */
 
 const IDB_NAME = 'thebar-e2e'

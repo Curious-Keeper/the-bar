@@ -1,6 +1,6 @@
 /**
  * Versioned wire format for PQ+ E2E message body and key exchange.
- * See https://the-b4r.netlify.app/wiki/e2e_protocol.
+ * See https://thebarchat.app/wiki/e2e_protocol.
  */
 
 import { encrypt, decrypt, randomNonce } from './aead'
